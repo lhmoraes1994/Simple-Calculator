@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- CSS only -->
+   <link href="css\style.css" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Simple calculator</title>
+</head>
+
+<body>
+   <br>
+   <br>
+   <div id="calculator" class="calculator">
+
+      <audio id="sound" hidden></audio>
+      <p id="previousValue" class="previousValue"></p>
+      <p id="currentValue" class="currentValue"></p>
+
+
+      <div class=" buttons">
+
+
+         <input type="button" class="button-l" value="C" onclick="input('c');">
+         <input type="button" class="button-l" value='←' onclick="input('b')" ;>
+         <input type="button" class="button-m" value="7" onclick="input(7);">
+         <input type="button" class="button-m" value="8" onclick="input(8)" ;>
+         <input type="button" class="button-m" value="9" onclick="input(9)" ;>
+         <input type="button" class="button-sm" value="*" onclick="input('*')" ;>
+         <input type="button" class="button-m" value="4" onclick="input(4)" ;>
+         <input type="button" class="button-m" value="5" onclick="input(5)" ;>
+         <input type="button" class="button-m" value="6" onclick="input(6)" ;>
+         <input type="button" class="button-sm" value="-" onclick="input('-')" ;>
+         <input type="button" class="button-m" value="1" onclick="input(1)" ;>
+         <input type="button" class="button-m" value="2" onclick="input(2)" ;>
+         <input type="button" class="button-m" value="3" onclick="input(3)" ;>
+         <input type="button" class="button-sm" value="+" onclick="input('+')" ;>
+         <input type="button" class="button-m" value="," onclick="input('.')" ;>
+         <input type="button" class="button-m" value="0" onclick="input(0)" ;>
+         <input type="button" class="button-m" value="/" onclick="input('/')" ;>
+         <input type="button" class="button-sm" value="=" onclick="input('=')" ;>
+
+
+      </div>
+
+
+   </div>
+   <br>
+   <br>
+   <center> <a href="https://github.com/lhmoraes1994/Simple-Calculator">Lhmoraes1994/Simple-Calculator</a> </center>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="js\calculator.js"></script>
+<script src="js\keyboard.js"></script>
+
+</html>

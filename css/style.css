@@ -1,0 +1,91 @@
+body {
+  background-color: #C0C0C4;
+}
+a{
+font-size: 10pt;
+
+}
+.calculator {
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 240px;
+  height: 423px;
+  box-sizing: border-box;
+  background-color: #1C1C1C;
+}
+
+.previousValue {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: right;
+  font-size: 30pt;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-width: 0px;
+  padding: 0px 0px;
+  width: 230px;
+  height: 50px;
+  background-color: #A9A9A9;
+}
+
+.currentValue {
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: right;
+  font-size: 30pt;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-width: 0px;
+  padding: 0px 0px;
+  width: 230px;
+  height: 50px;
+  background-color: #A9A9A9;
+}
+
+.buttons {
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.button-l {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #1C1C1C;
+  background-color: #A0522D;
+  margin: 0px;
+  width: 115px;
+  height: 50px;
+  float: left;
+}
+
+.button-m {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #1C1C1C;
+  background-color: #4F4F4F;
+  margin: 0px;
+  width: 60px;
+  height: 65px;
+  float: left;
+}
+
+.button-sm {
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #1C1C1C;
+  width: 50px;
+  height: 65px;
+  background-color: #A0522D;
+  float: left;
+}
+
+input:hover {
+  opacity: 0.5;
+}
+a:hover {
+  background-color: #A0522D;
+}
